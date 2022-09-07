@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -11,8 +13,5 @@ void main() async {
   DioHelper.init();
   await CacheHelper.init();
 
-  BlocOverrides.runZoned(
-    () => runApp(const AppRoot()),
-    blocObserver: MyBlocObserver(),
-  );
+  runApp(const AppRoot());
 }

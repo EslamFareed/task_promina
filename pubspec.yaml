@@ -20,6 +20,8 @@ dependencies:
   intl: ^0.17.0
   draggable_scrollbar: ^0.1.0
   adaptive_scrollbar: ^2.1.2
+  date_picker_timeline: ^1.2.3
+  date_time_picker: "^2.1.0"
 
 dev_dependencies:
   flutter_test:
